@@ -32,7 +32,8 @@ def find_alphabetically_first_word(text: str) -> str:
     it is acceptable to either return an empty string or throw an error.
     """
     # BEGIN_YOUR_CODE (our solution is 1 line of code, but don't worry if you deviate from this)
-    raise Exception("Not implemented yet")
+    # raise Exception("Not implemented yet")
+    return max(text.split(), key=len)
     # END_YOUR_CODE
 
 
